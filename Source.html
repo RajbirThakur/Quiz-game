@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Belanosima&family=Crimson+Text&family=Domine:wght@500&family=EB+Garamond:wght@500;600&family=Libre+Baskerville&family=Merriweather&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="Logo2.png" alt="">
+        <p>My Simple Quiz Game</p>
+    </nav>
+    <section id="Section-1">
+        <h2 style="font-size: 30px;">Note :-</h2>
+        <div id="note"><i class="fa fa-check-square-o"></i>This game focuses on subjects of geopolitics and related topics. <br><br> <i class="fa fa-check-square-o"></i>There will be 5 Questions and Each Question carries 1 point<br><br> <i class="fa fa-check-square-o"></i>After you have submitted the test you will get your final score <br><br><i class="fa fa-check-square-o"></i>You can reattempt the quiz if you want by clicking on the reset button</div>
+        <button id="play">Let's Play</button>
+    </section>
+    <section id="Section-2">
+        <div id="timer"><span id="time">1 : 00</span></div>
+        <div class="content">
+            <h2 id="ques">Question will be written here</h2>
+            <div class="answerbuttons">
+                <button class="btn">option-1</button>
+                <button class="btn">option-2</button>
+                <button class="btn">option-3</button>
+                <button class="btn">option-4</button>
+            </div>
+            <button id="next">Next</button>
+        </div>
+    </section>
+    <section id="Section-3">
+        <div class="Result">
+            <h1 id="timeover">Test Completed</h1>
+            <p style="font-size: 20px;">Your Score is :</p>
+            <div id="finalscore">
+                <span id="score">5</span> 
+                <img id="scoreimg" src="Trophy.png" alt="">
+            </div>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+    
+    <script src="Brain.js"></script>
+</body>
+</html>

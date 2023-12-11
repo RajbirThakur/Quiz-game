@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: radial-gradient(79.58% 203.73% at 79.37% 69.22%,#d0e9f7 10.94%,#dabdfe 59.38%,#ffe9d9 100%)!important;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(79.58% 203.73% at 79.37% 69.22%,#b7d6e7 10.94%,#cba9f1 59.38%,#e4c3ac 100%)!important;
+    
+}
+#navbar p{
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+#navbar img{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 55px;
+}
+#Section-1{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#Section-1 #note{
+    height: 36vh;
+    width: 32vw;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    text-align: justify;
+}
+#Section-1 #play{
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#Section-2{
+    background: radial-gradient(79.58% 203.73% at 79.37% 69.22%,#d0e9f7 10.94%,#dabdfe 59.38%,#ffe9d9 100%)!important;
+    height: 100vh;   
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+#timer{
+    height: 6vh;
+    width: 7vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+#time{
+    font-size: 22px;
+}
+.content{
+    height: 55vh;
+    width: 38vw;
+    background-color: aliceblue;
+}
+.answerbuttons{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#ques{
+    font-size: 25px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    width: 100%;
+    height: 13vh;
+}
+.btn{
+    width: 100%;
+    height: 6vh;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: aliceblue;
+    border-bottom: 1px solid #d9d4d4;
+    border-top: 1px solid #d9d4d4;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#next{
+    display: block;
+    margin: auto;
+    height: 5vh;
+    width: 6vw;
+    font-size: 16px;
+    font-family: 'Domine', serif;
+    background-color: aliceblue;
+    border: 1px solid #b9b4b4;
+    margin-top: 5px;
+}
+#next:hover{
+    background-color: #90CAF9;
+    cursor: pointer;
+    border: none;
+}
+
+#Section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(79.58% 203.73% at 79.37% 69.22%,#d0e9f7 10.94%,#dabdfe 59.38%,#ffe9d9 100%)!important;
+    color: black;
+    display: none;
+}
+.Result{
+    height: 35vh;
+    width: 28vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Result h1{
+    font-family: 'Domine', serif;
+    font-size: 28px;
+}
+.Result #score{
+    font-size: 20px;
+}
+#finalscore{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#finalscore #scoreimg{
+    height: 7vh;
+    padding-left: 5px;
+}
+#reset{
+    height: 5vh;
+    width: 6vw;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 0.1px solid #b5b0b0;
+}
+#reset:hover{
+    background-color: #90CAF9;
+    cursor: pointer;
+}
